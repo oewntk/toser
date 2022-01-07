@@ -16,7 +16,6 @@ import java.util.function.Consumer;
  * Main class that serializes the model
  *
  * @author Bernard Bou
- * @see "https://sqlunet.sourceforge.net/schema.html"
  */
 public class ModelConsumer implements Consumer<Model>
 {

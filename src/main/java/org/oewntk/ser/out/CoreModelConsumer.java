@@ -15,7 +15,6 @@ import java.util.function.Consumer;
  * Main class that serializes the core model.
  *
  * @author Bernard Bou
- * @see "https://sqlunet.sourceforge.net/schema.html"
  */
 public class CoreModelConsumer implements Consumer<CoreModel>
 {
