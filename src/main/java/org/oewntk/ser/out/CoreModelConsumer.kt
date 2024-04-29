@@ -17,12 +17,12 @@ import java.util.function.Consumer
  */
 class CoreModelConsumer(private val file: File) : Consumer<CoreModel> {
 
-	override fun accept(model: CoreModel) {
-		Tracing.psInfo.printf("[CoreModel] %s%n", model.source)
-		try {
-			serializeCoreModel(model, file)
-		} catch (e: IOException) {
-			e.printStackTrace(Tracing.psErr)
-		}
-	}
+    override fun accept(model: CoreModel) {
+        Tracing.psInfo.printf("[CoreModel] %s%n", model.source)
+        try {
+            serializeCoreModel(model, file)
+        } catch (e: IOException) {
+            e.printStackTrace(Tracing.psErr)
+        }
+    }
 }
