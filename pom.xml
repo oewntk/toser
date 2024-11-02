@@ -7,7 +7,7 @@
 
   <groupId>io.github.oewntk</groupId>
   <artifactId>toser</artifactId>
-  <version>2.2.0</version>
+  <version>2.2.1</version>
   <name>to_ser</name>
   <description>Serialize Wordnet model to file.</description>
   <url>https://github.com/oewntk/toser</url>
@@ -23,7 +23,7 @@
     <dependency>
       <groupId>io.github.oewntk</groupId>
       <artifactId>model</artifactId>
-      <version>2.2.0</version>
+      <version>2.2.1</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
