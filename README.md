@@ -19,4 +19,4 @@ Project [toser](https://github.com/oewntk/toser)
 
 		<groupId>io.github.oewntk</groupId>
 		<artifactId>toser</artifactId>
-		<version>2.2.1</version>
+		<version>2.2.2</version>
