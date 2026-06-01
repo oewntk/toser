@@ -4,7 +4,7 @@
 package org.oewntk.ser.out
 
 import org.oewntk.model.CoreModel
-import org.oewntk.model.Serialize.serializeCoreModel
+import org.oewntk.model.SerializeJVM.serializeCoreModel
 import java.io.File
 import java.io.IOException
 import java.util.function.Consumer
