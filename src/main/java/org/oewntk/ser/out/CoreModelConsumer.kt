@@ -15,7 +15,10 @@ import java.util.function.Consumer
  * @property file output file
  * @author Bernard Bou
  */
-class CoreModelConsumer(private val file: File) : Consumer<CoreModel> {
+class CoreModelConsumer(
+    private val file: File,
+    private val verbose: Boolean = false,
+) : Consumer<CoreModel> {
 
     override fun accept(model: CoreModel) {
         Tracing.psInfo.printf("[CoreModel] %s%n", model.source)
