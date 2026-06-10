@@ -43,6 +43,14 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.github.oewntk</groupId>
+            <artifactId>model</artifactId>
+            <version>3.0.1</version>
+            <classifier>tests</classifier>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

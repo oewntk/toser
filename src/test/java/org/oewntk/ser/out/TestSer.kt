@@ -1,0 +1,36 @@
+package org.oewntk.ser.out
+
+import org.junit.BeforeClass
+import org.junit.Test
+import org.oewntk.model.LibDummyNanoModel.model
+import org.oewntk.model.SerializeJVM.serialize
+import org.oewntk.model.SerializeJVM.serializeCoreModel
+import org.oewntk.model.VerbTemplate
+import java.io.File
+import java.io.FileOutputStream
+
+class TestsSer {
+
+    @Test
+    fun testSerDummyCoreModel() {
+        val file = File("test-dummy.ser")
+        serializeCoreModel(model, file)
+    }
+
+    @Test
+    fun testSerVerbTemplateCoreModel() {
+        val vt = VerbTemplate(1, "xxx % yyy")
+        val file = File("test-dummy-vb.ser")
+        FileOutputStream(file).use { os ->
+            serialize(os, vt)
+        }
+    }
+
+    companion object {
+
+        @JvmStatic
+        @BeforeClass
+        fun init() {
+        }
+    }
+}
