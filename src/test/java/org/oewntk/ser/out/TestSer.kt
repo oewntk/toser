@@ -2,7 +2,7 @@ package org.oewntk.ser.out
 
 import org.junit.BeforeClass
 import org.junit.Test
-import org.oewntk.model.LibDummyNanoModel.model
+import org.oewntk.model.LibDummyNanoModel.model1
 import org.oewntk.model.SerializeJVM.serialize
 import org.oewntk.model.SerializeJVM.serializeCoreModel
 import org.oewntk.model.VerbTemplate
@@ -14,7 +14,7 @@ class TestsSer {
     @Test
     fun testSerDummyCoreModel() {
         val file = File("test-dummy.ser")
-        serializeCoreModel(model, file)
+        serializeCoreModel(model1, file)
     }
 
     @Test
