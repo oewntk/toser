@@ -13,14 +13,14 @@ class TestsSer {
 
     @Test
     fun testSerDummyCoreModel() {
-        val file = File("test-dummy.ser")
+        val file = File("_dummy.ser")
         serializeCoreModel(model1, file)
     }
 
     @Test
     fun testSerVerbTemplateCoreModel() {
         val vt = VerbTemplate(1, "xxx % yyy")
-        val file = File("test-dummy-vb.ser")
+        val file = File("_dummy-vb.ser")
         FileOutputStream(file).use { os ->
             serialize(os, vt)
         }
