@@ -26,11 +26,10 @@ class TestsSer {
         }
     }
 
-    companion object {
-
-        @JvmStatic
-        @BeforeClass
-        fun init() {
-        }
-    }
+    // companion object {
+    //     @JvmStatic
+    //     @BeforeClass
+    //     fun init() {
+    //     }
+    // }
 }
