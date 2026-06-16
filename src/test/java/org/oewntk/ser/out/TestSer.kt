@@ -1,6 +1,5 @@
 package org.oewntk.ser.out
 
-import org.junit.BeforeClass
 import org.junit.Test
 import org.oewntk.model.LibDummyNanoModel.model1
 import org.oewntk.model.SerializeJVM.serialize
